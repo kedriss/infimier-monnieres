@@ -1,0 +1,121 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="container">
+    <div class="row">
+    <div class="card col-12 col-md-4"  >
+      <img src="https://www.stelladoradus.fr/wp-content/uploads/2015/07/mobile-history.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title"> 
+        <span class="glyphicon glyphicon-earphone"></span> 	Nous appeler</h5>
+        <p class="card-text">Vous pouvez nous appeler a l'heure qu'il ne conviendra pas!!Surtout entre 23 heure et 4h du mat</p>
+        <a href="#" class="btn btn-primary">Cassez les couilles maintenant</a>
+      </div>
+    </div>
+    <div class="card col-12 col-md-4" >
+      <img src="https://previews.123rf.com/images/seventyfour74/seventyfour741708/seventyfour74170800042/83464893-portrait-de-actif-personne-%C3%A2g%C3%A9e-couple-voyager-sur-randonn%C3%A9e-voyage-s-arr%C3%AAter-regarder-carte-directions.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title"> 
+      Nous trouver</h5>
+        <p class="card-text">Je voudrais pas dire mais c'est super loin, vaut mieux pas venir franchement, au risque de se peter une pate</p>
+        <a href="#" class="btn btn-primary">Tenter le périple mortel maintenant</a>
+      </div>
+    </div>
+    <div class="card col-12 col-md-4" >
+      <img src="https://cdn.xl.thumbs.canstockphoto.fr/vieil-homme-utilisation-tablet-image_csp44102615.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title"> 
+      Envoyer un mail</h5>
+        <p class="card-text">Envoyer un mail detruit un arbre, en plus de nous faire chier</p>
+        <a href="#" class="btn btn-primary">Se comporter comme un enfoiré de climato sceptique maintenant</a>
+      </div>
+    </div>
+    </div>
+    <div class="row">
+    <div class="card col-12 col-md-12" >
+      <img src="https://i.pinimg.com/originals/bb/0f/89/bb0f89414fceae8a144d3201196fc4cb.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title"> 
+      Nos horaires</h5>
+        <p class="card-text">Alors nous on est est des branle zizi</p>
+      <table class="table">
+        <thead class="thead-dark">
+        <tr>
+          <th scope="col">Jour</th>
+          <th scope="col">Matin</th>
+          <th scope="col">Aprés midi</th>
+        
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <th scope="row">Lundi</th>
+          <td>11h45-12h30</td>
+          <td>16h30-16h45</td>
+        </tr>
+        <tr>
+          <th scope="row">Mardi</th>
+          <td>11h45-12h30</td>
+          <td>16h30-16h45</td>
+        </tr>
+        <tr>
+          <th scope="row">Mercredi</th>
+          <td>11h45-12h30</td>
+          <td>16h30-16h45</td>
+        </tr>
+        <tr>
+          <th scope="row">Jeudi</th>
+          <td>11h45-12h30</td>
+          <td>16h30-16h45</td>
+        </tr>
+        <tr>
+          <th scope="row">Vendredi</th>
+          <td>On picole</td>
+          <td>On s'hydrate</td>
+        </tr>
+        <tr>
+          <th scope="row">Samedi</th>
+          <td>11h45-12h30</td>
+          <td>16h30-16h45</td>
+        </tr>
+        <tr>
+          <th scope="row">Dimanche</th>
+          <td>On travail</td>
+          <td>pas</td>
+        </tr>
+        </tbody>
+      </table>	
+        <a href="#" class="btn btn-primary">Imprimer les horaires de branle zizi maintenant</a>
+      </div>
+    
+    </div>
+    </div>
+    </div>
+
+
+<div class="container">
+  <ngb-tabset>
+    <ngb-tab title="Simple">
+      <template ngbTabContent>
+        <p>This is the content of the first tab!</p>
+        <ngb-alert [dismissible]="false">
+          <strong>Warning!</strong> This is an alert!
+        </ngb-alert>
+      </template>
+    </ngb-tab>
+    <ngb-tab>
+      <template ngbTabTitle><b>Fancy</b> title</template>
+      <template ngbTabContent>
+        <p>This is the content of the second tab!</p>
+        <p><ngb-progressbar type="success" [value]="25"></ngb-progressbar></p>
+        <p><ngb-progressbar type="info" [value]="50"></ngb-progressbar></p>
+        <p><ngb-progressbar type="warning" [value]="75"></ngb-progressbar></p>
+        <p><ngb-progressbar type="danger" [value]="100"></ngb-progressbar></p>
+      </template>
+    </ngb-tab>
+    <ngb-tab title="Disabled" [disabled]="true">
+      <template ngbTabContent>
+        <p>This tab is disabled</p>
+      </template>
+    </ngb-tab>
+  </ngb-tabset>
+</div>
+<router-outlet></router-outlet>
